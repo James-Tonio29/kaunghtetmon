@@ -214,18 +214,17 @@ ul a{
     padding-top: 5%;
     padding-bottom: 5% ;
 }
-#vdscontainer{
+/* #vdscontainer{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
     margin:auto;    
-}
-#vds{
+} */
+/* #vds{
     display: flex;
     width:100%;
     height: 50%;
-    /* overflow: hidden; */
-}
+} */
 video{
     width: 100%;
 }
@@ -314,7 +313,7 @@ video{
     }
 }
 .contact{
-    background-color: rgb(179, 235, 95);
+    background-color: rgb(145, 255, 101);
     height: 150px;
 }
 .contact .text h2{
@@ -329,15 +328,23 @@ video{
     font-size: 30px;
     font-weight: bolder;  
 }
-@media screen and (min-width: 1080px){
+@media screen and (max-width: 1440px){
     #navd{
-        width:100%;
+        widows: 100%;
+    }
+    #nav a:hover{
+        text-decoration: none;
+        color:rgb(142, 235, 2);
+    }
+    #nav a{
+        font-weight: 500;
+        font-size: 25px;
     }
     #nav li{
-        padding-left: 50px;
+        padding-left: 55px;
     }
     #mainbg{
-        background-size: 70%;
+        background-size: 65%;
     }
     #mainbody{
      margin-left: 6%;   
@@ -349,11 +356,11 @@ video{
     }
     #intro{
         font-weight: 500;
-        font-size: 45px;
+        font-size: 25px;
     }
     #greet{
         font-weight: 600;
-        font-size: 55px;
+        font-size: 35px;
     }
     #b1{
         width: 120px;
@@ -366,11 +373,12 @@ video{
         width: 50px;
     }
     #mainr{
-        margin-top: 5%;
+        margin-top: 2%;
         width: 50%;
+        padding-right: 0px;
     }
     #port{
-        background-size: 100% 85%;
+        background-size: 100% 100%;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
@@ -384,4 +392,20 @@ video{
         margin-top: auto;
         margin-bottom: auto;
     }
+    #data{
+        display: flex;
+        font-size: 20px;
+        color: rgb(122, 122, 122);
+        margin-top:0%;
+        justify-content: center;
+        text-align: center;
+    }
+    #data{
+    display: flex;
+    font-size: 30px;
+    color: rgb(122, 122, 122);
+    margin-top:0%;
+    justify-content: center;
+    text-align: center;
+}
 }
