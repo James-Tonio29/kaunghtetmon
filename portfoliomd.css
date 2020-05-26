@@ -329,8 +329,11 @@ video{
     font-weight: bolder;  
 }
 @media screen and (max-width: 1440px){
+    #mainbg{
+        width: 80%;
+    }
     #navd{
-        widows: 100%;
+        width: 74%;
     }
     #nav a:hover{
         text-decoration: none;
@@ -338,29 +341,29 @@ video{
     }
     #nav a{
         font-weight: 500;
-        font-size: 25px;
+        font-size: 17px;
     }
     #nav li{
-        padding-left: 55px;
+        padding-left: 27px;
     }
     #mainbg{
-        background-size: 65%;
+        background-size: 66%;
     }
     #mainbody{
      margin-left: 6%;   
     }
     #main{
         width: 50%;
-        font-weight: 100;
+        font-weight: 80;
         margin-top: 5%;
     }
     #intro{
         font-weight: 500;
-        font-size: 25px;
+        font-size: 23px;
     }
     #greet{
         font-weight: 600;
-        font-size: 35px;
+        font-size: 25px;
     }
     #b1{
         width: 120px;
@@ -373,11 +376,12 @@ video{
         width: 50px;
     }
     #mainr{
-        margin-top: 2%;
-        width: 50%;
-        padding-right: 0px;
+        margin-top: 5%;
+        width: 46%;
+        padding-right: 15px;
     }
     #port{
+        width: 73%;
         background-size: 100% 100%;
         padding-bottom: 0px;
         margin-bottom: 0px;
